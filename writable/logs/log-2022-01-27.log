@@ -1,0 +1,458 @@
+CRITICAL - 2022-01-27 00:01:33 --> There is no data to insert.
+#0 /var/www/html/codeigniter/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /var/www/html/codeigniter/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 /var/www/html/codeigniter/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 /var/www/html/codeigniter/app/Controllers/Employee.php(40): CodeIgniter\BaseModel->save(Array)
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-27 00:41:28 --> syntax error, unexpected '(', expecting ';' or '{'
+#0 /var/www/html/codeigniter/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('employee')
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('employee')
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 00:41:54 --> Invalid file: /.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('/', Array)
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-27 00:49:30 --> Invalid file: /.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('/', Array)
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-27 00:49:34 --> Invalid file: /.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('/', Array)
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-27 01:35:09 --> Invalid file: /.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('/', Array)
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-27 02:39:29 --> Invalid file: /.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('/', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('/', Array)
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-27 02:40:28 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 02:42:34 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 02:45:03 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 05:11:12 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 05:13:09 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 05:13:19 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 05:39:43 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 05:49:46 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 05:54:54 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:56:15 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:56:27 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:57:14 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:01 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:02 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:02 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:02 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:02 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:03 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:03 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:03 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 05:58:03 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:01:26 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:01:35 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:02:08 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:02:15 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:07:39 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:07:45 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:11:51 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:13:01 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:14:24 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:16:47 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:16:54 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:19:14 --> Cannot redeclare App\Controllers\Employee::store_employee()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-27 06:19:23 --> Cannot redeclare App\Controllers\Employee::store_employee()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-27 06:20:16 --> Cannot redeclare App\Controllers\Employee::store_employee()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-27 06:20:35 --> Cannot redeclare App\Controllers\Employee::store_employee()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-27 06:21:59 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:22:47 --> Undefined index: experience
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 28, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:22:54 --> Undefined index: experience
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 28, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 06:28:47 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 08:12:09 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 08:21:27 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 08:21:35 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 08:21:46 --> Undefined index: age
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-27 08:21:54 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-27 08:27:12 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(53): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->upload_csv_file()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+ERROR - 2022-01-27 08:43:37 --> Invalid default value for 'created_at'

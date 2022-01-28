@@ -1,0 +1,499 @@
+CRITICAL - 2022-01-26 23:08:51 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl')
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/html/codeigniter/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/codeigniter/spark(45): require('/var/www/html/c...')
+#4 {main}
+CRITICAL - 2022-01-26 12:14:07 --> Invalid file: employee.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(9): view('employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 12:25:21 --> Invalid file: employee.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(9): view('employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 12:25:50 --> Invalid file: employee.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(9): view('employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 12:25:51 --> Invalid file: employee.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(9): view('employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 12:25:52 --> Invalid file: employee.php
+#0 /var/www/html/codeigniter/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee.php')
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(9): view('employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 12:52:37 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:08 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:09 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:09 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:10 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:10 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:10 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:12 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:12 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:12 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 12:53:12 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:03:05 --> syntax error, unexpected '/', expecting ',' or ';'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-26 13:03:06 --> syntax error, unexpected '/', expecting ',' or ';'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-26 13:03:06 --> syntax error, unexpected '/', expecting ',' or ';'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-26 13:03:06 --> syntax error, unexpected '/', expecting ',' or ';'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-26 13:03:19 --> syntax error, unexpected '/', expecting ',' or ';'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-26 13:03:50 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:03:51 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:03:51 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:03:51 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:03:51 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:03:52 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:06:24 --> Cannot call constructor
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(802): App\Controllers\Employee->__construct()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:07:18 --> syntax error, unexpected '/', expecting ',' or ';'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+ERROR - 2022-01-26 13:07:39 --> Unknown column 'employee.deleted_at' in 'where clause'
+CRITICAL - 2022-01-26 13:07:39 --> Call to a member function getResult() on bool
+#0 /var/www/html/codeigniter/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /var/www/html/codeigniter/app/Controllers/Employee.php(19): CodeIgniter\BaseModel->findAll()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#7 {main}
+ERROR - 2022-01-26 13:10:15 --> Unknown column 'employee.deleted_at' in 'where clause'
+CRITICAL - 2022-01-26 13:10:15 --> Call to a member function getResult() on bool
+#0 /var/www/html/codeigniter/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /var/www/html/codeigniter/app/Controllers/Employee.php(14): CodeIgniter\BaseModel->findAll()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#7 {main}
+ERROR - 2022-01-26 13:10:16 --> Unknown column 'employee.deleted_at' in 'where clause'
+CRITICAL - 2022-01-26 13:10:16 --> Call to a member function getResult() on bool
+#0 /var/www/html/codeigniter/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /var/www/html/codeigniter/app/Controllers/Employee.php(14): CodeIgniter\BaseModel->findAll()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#7 {main}
+ERROR - 2022-01-26 13:10:16 --> Unknown column 'employee.deleted_at' in 'where clause'
+CRITICAL - 2022-01-26 13:10:16 --> Call to a member function getResult() on bool
+#0 /var/www/html/codeigniter/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /var/www/html/codeigniter/app/Controllers/Employee.php(14): CodeIgniter\BaseModel->findAll()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#7 {main}
+ERROR - 2022-01-26 13:10:16 --> Unknown column 'employee.deleted_at' in 'where clause'
+CRITICAL - 2022-01-26 13:10:16 --> Call to a member function getResult() on bool
+#0 /var/www/html/codeigniter/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /var/www/html/codeigniter/app/Controllers/Employee.php(14): CodeIgniter\BaseModel->findAll()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#7 {main}
+CRITICAL - 2022-01-26 13:13:07 --> Argument 2 passed to view() must be of the type array, object given, called in /var/www/html/codeigniter/app/Controllers/Employee.php on line 15
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(15): view('employee', Object(CodeIgniter\Database\MySQLi\Result))
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-26 13:18:01 --> syntax error, unexpected end of file
+#0 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(15): view('employee', Array)
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 13:18:50 --> Undefined variable: employee_details
+#0 /var/www/html/codeigniter/app/Views/employee.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 237, Array)
+#1 /var/www/html/codeigniter/system/View/View.php(210): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/codeigniter/system/Common.php(1089): CodeIgniter\View\View->render('employee', Array, true)
+#4 /var/www/html/codeigniter/app/Controllers/Employee.php(15): view('employee', Array)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->index()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2022-01-26 13:55:50 --> Undefined property: App\Controllers\Employee::$input
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/c...', 25, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-26 13:58:21 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2022-01-26 13:58:56 --> date_diff() expects parameter 2 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/app/Controllers/Employee.php(27): date_diff(Object(DateTime), '2022-01-26')
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#7 {main}
+CRITICAL - 2022-01-26 13:59:01 --> date_diff() expects parameter 2 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/app/Controllers/Employee.php(27): date_diff(Object(DateTime), '2022-01-26')
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#7 {main}
+CRITICAL - 2022-01-26 14:00:43 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-26 14:00:59 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/c...')
+#1 /var/www/html/codeigniter/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#9 {main}
+CRITICAL - 2022-01-26 14:01:20 --> Object of class DateInterval could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/c...', 318, Array)
+#1 /var/www/html/codeigniter/system/Database/Query.php(318): strtr('INSERT INTO `em...', Array)
+#2 /var/www/html/codeigniter/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `em...', Array)
+#3 /var/www/html/codeigniter/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /var/www/html/codeigniter/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /var/www/html/codeigniter/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#6 /var/www/html/codeigniter/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#7 /var/www/html/codeigniter/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#8 /var/www/html/codeigniter/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#9 /var/www/html/codeigniter/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#10 /var/www/html/codeigniter/app/Controllers/Employee.php(29): CodeIgniter\BaseModel->save(Array)
+#11 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#12 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#13 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#15 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#16 {main}
+CRITICAL - 2022-01-26 14:01:59 --> Undefined property: DateInterval::$years
+#0 /var/www/html/codeigniter/app/Controllers/Employee.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#2 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#6 {main}
+CRITICAL - 2022-01-26 14:14:22 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('/employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:15:39 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('/employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:15:43 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('/employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:16:07 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('/employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:16:26 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('/employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:16:30 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('/employee')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:17:03 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('/employee/index')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:18:28 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('http://localhos...')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2022-01-26 14:18:39 -->  route cannot be found while reverse-routing.
+#0 /var/www/html/codeigniter/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /var/www/html/codeigniter/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /var/www/html/codeigniter/app/Controllers/Employee.php(33): redirect('http://localhos...')
+#3 /var/www/html/codeigniter/system/CodeIgniter.php(825): App\Controllers\Employee->store_employee()
+#4 /var/www/html/codeigniter/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#5 /var/www/html/codeigniter/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/codeigniter/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
